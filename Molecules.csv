@@ -1,0 +1,123 @@
+;Table name : Molecules
+;MariaDB types
+;INT NOT NULL : ObjID,ID
+;BOOLEAN NOT NULL DEFAULT 0 : Mol_CO,Mol_C,Mol_HCN_HNC,Mol_HCO,Mol_N2H,Mol_CS,Mol_CN,Mol_CH3OH,Mol_SiO
+;FLOAT NOT NULL DEFAULT -99.0 :Mol_Flow
+;VARCHAR(255) NOT NULL DEFAULT 'N.A.': Pub_mol,Pub_F
+;VARCHAR(30) NOT NULL DEFAULT 'N.A.': Mol_tracer
+;CONSTRAINT PRIMARY KEY (ObjID)
+;CONSTRAINT FOREIGN KEY (ID) REFERENCES Identity(ID) ON DELETE CASCADE
+;ObjID,Mol_CO,Mol_C,Mol_HCN_HNC,Mol_HCO,Mol_N2H,Mol_CS,Mol_CN,Mol_CH3OH,Mol_SiO,Pub_mol,Mol_Flow,Mol_tracer,Pub_F,ID
+0,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,0
+1,1,0,1,1,1,0,0,0,0,Kim et al 2019/Kim et al 2021/Hung2010,1,C12O,Hung2010,1
+2,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,C12O,Kim et al 2019,2
+3,1,0,1,0,1,0,0,0,0,Palau et al 2014/Kim et al 2019/Kim et al 2021,0,CO,Palau et al 2014,3
+4,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,4
+5,1,0,0,1,0,1,0,0,0,Kim et al 2019/Carney et al 2015/Andre et al 1999,1,C12O,Kim et al 2019,5
+6,1,0,0,0,0,0,0,0,0,Kim et al 2019,0,N.A.,N.A.,6
+7,1,0,0,1,0,0,0,0,0,Kim et al 2019,1,C12O,Kim et al 2019,7
+8,1,0,0,1,0,1,0,1,0,Carney et al 2015/Tokuda et al 2016/Kim et al 2019/Favre et al 2020,1,C12O,Kim et al 2019,8
+9,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,9
+10,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,10
+11,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,12CO,Kim et al 2019,11
+12,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,12CO,Kim et al 2019,12
+13,1,0,1,1,1,0,0,0,0,Kim et al 2019/Kim et al 2021/Lee et al 2009/Lee et al 2013,1,C12O,Kim et al 2019,13
+14,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,14
+15,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,15
+16,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,16
+17,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,12CO,Kim et al 2019,17
+18,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,12CO,Kim et al 2019,18
+19,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,-99.,N.A.,N.A.,19
+20,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,-99.,N.A.,N.A.,20
+21,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,-99.,N.A.,N.A.,21
+22,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,-99.,N.A.,N.A.,22
+23,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,-99.,N.A.,N.A.,23
+24,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,24
+25,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,25
+26,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,26
+27,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,27
+28,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,28
+29,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,12CO,Kim et al 2019,29
+30,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,30
+31,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,31
+32,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,32
+33,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,33
+34,1,0,1,0,1,0,0,0,0,Kim et al 2019/Hsieh et al 2018/Kim et al 2021,1,12CO,Kim et al 2019,34
+35,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kauffman et al 2011/Kim et al 2021,1,C12O,Kim et al 2019,35
+37,0,0,1,0,1,0,0,0,0,Kim et al 2021,0,N.A.,N.A.,37
+38,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,12CO,Kim et al 2019,38
+39,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,39
+40,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,40
+41,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,41
+42,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,42
+43,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,43
+45,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,45
+46,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,46
+47,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,47
+48,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,48
+49,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,49
+50,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,50
+58,1,0,0,0,0,0,0,0,0,Kim et al 2019,0,N.A.,N.A.,58
+59,1,0,0,0,0,0,0,0,0,Kim et al 2019,0,N.A.,N.A.,59
+60,1,0,0,0,0,0,0,0,0,Kim et al 2019,0,N.A.,N.A.,60
+61,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,12CO,Kim et al 2019,61
+62,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,12CO,Kim et al 2019,62
+63,1,0,0,0,0,0,0,0,0,Kim et al 2019,1,12CO,Kim et al 2019,63
+64,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,64
+65,0,0,1,0,1,0,0,0,0,Kim et al 2021,0,N.A.,N.A.,65
+66,0,0,1,0,1,0,0,0,0,Kim et al 2021,0,N.A.,N.A.,66
+67,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,67
+68,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,68
+69,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,69
+70,0,0,1,0,1,0,0,0,0,Kim et al 2021,0,N.A.,N.A.,70
+71,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,71
+72,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,72
+73,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,73
+74,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,74
+75,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,75
+76,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,76
+77,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,77
+84,1,0,0,0,0,0,0,0,0,Kim et al 2019,0,N.A.,N.A.,84
+85,1,0,0,0,0,0,0,0,0,Kim et al 2019,0,N.A.,N.A.,85
+87,1,0,0,0,0,0,0,0,0,Kim et al 2019,0,N.A.,N.A.,87
+96,1,0,0,1,1,0,0,0,0,Furuya et al 2009/Furuya et al 2019,1,12CO,Furuya et al 2019,96
+97,1,0,0,0,1,0,0,0,0,Palau et al 2012,0,N.A.,N.A.,97
+101,1,0,1,1,1,0,0,1,0,Dunham et al 2011/Pineda et al 2011/Maureira et al 2017,1,12CO,Pineda et al 2011,101
+117,1,0,0,0,0,0,0,0,0,Schwarz et al 2012,1,CO,Lee et al 2010,117
+142,1,0,1,1,0,1,1,0,0,Riaz et al 2018/Riaz et al 2019,0,N.A.,N.A.,142
+162,0,0,0,0,0,0,0,0,0,N.A.,0,N.A.,Morata et al 2015,162
+163,0,0,0,0,0,0,0,0,0,N.A.,0,N.A.,Morata et al 2015,163
+164,0,0,0,0,0,0,0,0,0,N.A.,0,N.A.,Morata et al 2015,164
+166,0,0,0,0,0,0,0,0,0,N.A.,0,N.A.,Morata et al 2015,166
+167,0,0,0,0,0,0,0,0,0,N.A.,0,N.A.,Morata et al 2015,167
+168,0,0,0,0,0,0,0,0,0,N.A.,0,N.A.,Morata et al 2015,168
+169,0,0,0,0,0,0,0,0,0,N.A.,0,N.A.,Morata et al 2015,169
+171,0,0,0,0,0,0,0,0,0,N.A.,0,N.A.,Morata et al 2015,171
+172,0,0,0,0,0,0,0,0,0,N.A.,0,N.A.,Morata et al 2015,172
+173,1,0,0,1,0,0,0,1,0,Hirano et al 2014/Gerin et al 2015,1,13CO,Hirano et al 2014,173
+174,1,0,0,1,0,0,0,1,0,Hirano et al 2014/Gerin et al 2015,1,13CO,Hirano et al 2014,174
+176,1,0,1,1,1,1,0,1,1,Schnee et al 2012/Stephens et al 2018/Maureira et al 2020,1,HCO,Schnee et al 2012/Maureira et al 2020,176
+177,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,177
+178,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,178
+179,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,179
+180,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,180
+181,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,181
+182,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,182
+183,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,183
+184,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,184
+185,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,185
+186,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,186
+187,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,187
+188,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,188
+189,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,189
+190,1,0,0,0,0,0,0,0,1,Santamaria-Miranda et al 2021,-99,N.A.,N.A.,190
+191,1,0,1,1,1,1,0,1,0,Dunham et al. 2011/Maureira et al 2017,1,12CO,Dunham et al 2011,191
+192,1,0,1,1,1,1,0,1,0,Belloche2006/Busch et al 2020/Maureira et al. 2020,1,CO,Busch et al. 2020,192
+194,1,0,0,0,0,0,0,0,0,Riaz & Machida 2021,0,12CO,Riaz & Machida 2021/Phan-Bao et al 2011,194
+195,1,0,1,1,1,0,0,1,1,Chen et al. 2010/Maureira et al. 2020,0,N.A.,N.A.,195
+197,0,0,0,0,1,0,0,0,0,Andre et al 2012,-99,N.A.,N.A.,197
+203,1,0,0,1,1,0,0,0,0,Liu et al 2017,1,12CO,Liu et al 2017,203
+205,1,0,0,0,0,1,0,1,0,Jorgensen et al 2013/Oya et al 2014/Yen et al 2017,1,12CO,Yen et al 2017,205
+325,1,0,0,0,1,0,0,0,0,Kawabe et al. 2018,1,12CO,Kawabe et al. 2018,325
+326,1,0,0,0,1,0,0,0,0,Kawabe et al. 2018,1,12CO,Kawabe et al. 2018,326
+
