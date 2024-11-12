@@ -1,13 +1,13 @@
 ;Table name : Molecules
 ;MariaDB types
 ;INT NOT NULL : ObjID,ID
-;BOOLEAN NOT NULL DEFAULT 0 : Mol_CO,Mol_C,Mol_HCN_HNC,Mol_HCO,Mol_N2H,Mol_CS,Mol_CN,Mol_CH3OH,Mol_SiO
+;BOOLEAN NOT NULL DEFAULT 0 : Mol_CO,Mol_C,Mol_HCN,Mol_HCO,Mol_N2H,Mol_CS,Mol_CN,Mol_CH3OH,Mol_SiO
 ;FLOAT NOT NULL DEFAULT -99.0 :Mol_Flow
 ;VARCHAR(255) NOT NULL DEFAULT 'N.A.': Pub_mol,Pub_F
 ;VARCHAR(30) NOT NULL DEFAULT 'N.A.': Mol_tracer
 ;CONSTRAINT PRIMARY KEY (ObjID)
 ;CONSTRAINT FOREIGN KEY (ID) REFERENCES Identity(ID) ON DELETE CASCADE
-;ObjID,Mol_CO,Mol_C,Mol_HCN_HNC,Mol_HCO,Mol_N2H,Mol_CS,Mol_CN,Mol_CH3OH,Mol_SiO,Pub_mol,Mol_Flow,Mol_tracer,Pub_F,ID
+;ObjID,Mol_CO,Mol_C,Mol_HCN,Mol_HCO,Mol_N2H,Mol_CS,Mol_CN,Mol_CH3OH,Mol_SiO,Pub_mol,Mol_Flow,Mol_tracer,Pub_F,ID
 0,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,0,N.A.,N.A.,0
 1,1,0,1,1,1,0,0,0,0,Kim et al 2019/Kim et al 2021/Hung2010,1,C12O,Hung2010,1
 2,1,0,1,0,1,0,0,0,0,Kim et al 2019/Kim et al 2021,1,C12O,Kim et al 2019,2
